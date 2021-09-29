@@ -5,15 +5,15 @@ public class ConstructorDemo {
     /**
      * Constructor is special type of function
      * which is invoked automatically when you create object of class.
-     * <p>
+     *
      * Rule -> 1. Class name and constructor name should be same
      * 2. There should be no return type to constructor
      * 3. final, static ,synchronized keyword are not used with constructor.
-     * <p>
+     *
      * Types ->
      * parameterized constructor
      * default constructor
-     * <p>
+     *
      * advantage -> it initializes the variable to their default values
      */
 
