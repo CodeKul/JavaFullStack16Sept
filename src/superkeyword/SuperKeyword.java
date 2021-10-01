@@ -35,7 +35,8 @@ class A extends SuperKeyword {
     }
 
     public static void main(String[] args) {
-        A obj = new A(1);
+        A obj = new A();
+//        System.out.println(obj.i);
     }
 
     public void show() {

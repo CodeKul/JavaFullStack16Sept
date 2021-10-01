@@ -7,11 +7,11 @@ import statickeyword.StaticKeywordDemo;
  * final method => you can not override the method
  * final class => you can not inherit the class
  */
-public final class FinalKeywordDemo {
+public  class FinalKeywordDemo {
 
     final int i=90;
 
-    public final void display(){
+    public  void display(){
 
 //        i =56;
     }
@@ -25,10 +25,10 @@ public final class FinalKeywordDemo {
     }
 }
 
-//class FinalOver extends FinalKeywordDemo{
+class FinalOver extends FinalKeywordDemo{
 
-//    @Override
-//    public void display() {
-//
-//    }
-//}
+    @Override
+    public final void display() {
+
+    }
+}
