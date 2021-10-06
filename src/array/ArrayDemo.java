@@ -9,6 +9,7 @@ public class ArrayDemo {
         int[] arr = {1,2,44,5,5,5};
         String[] str = {"Rahul","Akash"};
 
+
 //        System.out.println(Arrays.toString(arr));
 
 //        System.out.println(arr.length);
