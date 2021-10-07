@@ -11,7 +11,15 @@ public class SwitchDemo {
 
         switch (num) {
             case "1":
-                System.out.println("ONE");
+                System.out.println("Enter some value");
+                int value;
+                value = scanner.nextInt();
+                switch (value){
+                    case 1:
+                        System.out.println("In one case");
+                    case 2:
+
+                }
                 break;
             case "2":
                 System.out.println("TWO");
