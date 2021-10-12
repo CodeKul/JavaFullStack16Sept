@@ -23,7 +23,6 @@ public class ExceptionHandlingDemo {
             j = i / 0;
 
         } catch (NumberFormatException e) {
-
             System.out.println("Number format Exc=>"+e);
         } catch (ArithmeticException  e){
             try {
@@ -32,7 +31,6 @@ public class ExceptionHandlingDemo {
             }catch (ArrayIndexOutOfBoundsException a){
                 System.out.println("Array index =>"+a);
             }
-
             System.out.println("Arithmetic Exc=>"+e);
         } finally {
             System.out.println("Finally block");
