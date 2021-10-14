@@ -1,8 +1,5 @@
 package exceptionhandling;
 
-import java.sql.SQLException;
-import java.time.LocalDate;
-
 public class ThrowKeyword {
 
     public static void main(String[] args) throws MyException {
