@@ -1,9 +1,12 @@
 package exceptionhandling;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
 public class ExceptionPropogation {
 
-    public void a(){
-        int i=1/0;
+    public void a()  {
+       int  i=1/0;
     }
 
     public void b(){

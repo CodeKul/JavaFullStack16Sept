@@ -1,7 +1,7 @@
 Throwable
     Exception (Checked Exception)-
                 -IOException
-                -FileNotFoundException
+                   -FileNotFoundException
                 -SqlException
                 -ClassNotException
                 -RunTimeException (UnChecked Exception)

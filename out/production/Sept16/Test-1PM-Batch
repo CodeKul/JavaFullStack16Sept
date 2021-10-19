@@ -1,0 +1,18 @@
+
+ 1) Write a program to input a number from the user and display the corresponding day of the week.
+
+2) What is ternary operator? Give an example(Program).
+
+3) Explain Object oriented Principles (IN Detail)
+
+4) Write a program to create a class Student and do the following:
+  a) Create a member variables (rollNo, Name, contactNo, Total marks)
+  b) Create a constructor and assign the values.
+  b) Create another method to display the data of Student class.
+  c) Create object of Student class and access these
+     methods in a new class –
+     StudentDemo.java.
+    
+    (Optional) 
+ 5) create a Employee class(empId,empName,empAdd,salary) & one Arraylist and store the Employee's in that arraylist also print this  
+     
