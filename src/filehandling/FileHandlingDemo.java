@@ -1,26 +1,37 @@
 package filehandling;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 
 public class FileHandlingDemo {
 
     public static void main(String[] args) {
-        File file = new File("/home/vaibhav/workspace/Sept16/src/filehandling/text.txt");
+
+        //byte streams
         try {
-            FileOutputStream fileOutputStream= new FileOutputStream(file);
-            String str = "Welcome";
-            byte[] arr = str.getBytes();
+            FileOutputStream fileOutputStream = new FileOutputStream("/home/vaibhav/workspace/Sept16/src/filehandling/sample2.txt");
+            String str = "hello";
+            byte[] arr = str.getBytes(StandardCharsets.UTF_8);
             fileOutputStream.write(arr);
-            System.out.println("file write successfully");
-        } catch (FileNotFoundException e) {
-            e.getMessage();
-        } catch (Exception e) {
+            System.out.println("Successfully file write");
+            fileOutputStream.close();
+        } catch (IOException e) {
             e.printStackTrace();
         }
-    }
 
+
+        try {
+            FileInputStream fileInputStream = new FileInputStream("/home/vaibhav/workspace/Sept16/src/filehandling/sample2.txt");
+            int i =  fileInputStream.read();
+            while (i>0){
+                System.out.print((char)i);
+                i = fileInputStream.read();
+            }
+            fileInputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+    }
 }
