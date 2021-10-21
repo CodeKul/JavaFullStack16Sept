@@ -14,6 +14,10 @@ public class FileHandlingDemo {
             byte[] arr = str.getBytes(StandardCharsets.UTF_8);
             fileOutputStream.write(arr);
             System.out.println("Successfully file write");
+
+
+
+
             fileOutputStream.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -31,7 +35,6 @@ public class FileHandlingDemo {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
 
     }
 }
