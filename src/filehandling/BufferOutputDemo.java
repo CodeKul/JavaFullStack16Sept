@@ -7,11 +7,10 @@ public class BufferOutputDemo {
 
     public static void main(String[] args) {
         try {
+            FileOutputStream fileOutputStream = new FileOutputStream(
+                    "/home/vaibhav/workspace/Sept16/src/filehandling/bufferDemo.txt");
             BufferedOutputStream bufferedOutputStream
-                    = new BufferedOutputStream(
-                            new FileOutputStream(
-                                    "/home/vaibhav/workspace/Sept16/src/filehandling/bufferDemo.txt")
-            );
+                    = new BufferedOutputStream(fileOutputStream);
             String str = "Pune";
             byte[] arr = str.getBytes(StandardCharsets.UTF_8);
 

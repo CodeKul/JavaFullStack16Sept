@@ -14,15 +14,10 @@ public class FileHandlingDemo {
             byte[] arr = str.getBytes(StandardCharsets.UTF_8);
             fileOutputStream.write(arr);
             System.out.println("Successfully file write");
-
-
-
-
             fileOutputStream.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
 
         try {
             FileInputStream fileInputStream = new FileInputStream("/home/vaibhav/workspace/Sept16/src/filehandling/sample2.txt");
