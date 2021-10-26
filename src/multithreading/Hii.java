@@ -41,3 +41,9 @@ class Multithreading {
 
     }
 }
+
+//New - when you create object of thread and before invocation of start()
+//Runnable - when invoke the start method but thread scheduler is not selected as running thread
+//Running - when thread scheduler is selected as running thread
+//Blocking - when it not eligible to run but still alive
+//Dead - after exit of run method

@@ -1,7 +1,7 @@
 package multithreading;
 
 public class HiiHello {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         Thread t1 = new Thread(new Runnable() {
             @Override
@@ -30,6 +30,10 @@ public class HiiHello {
 
         t1.start();
         t2.start();
+
+        t1.join();
+        t2.join();
+        System.out.println("Exit");
 
     }
 }
