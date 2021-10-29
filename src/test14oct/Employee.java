@@ -31,5 +31,7 @@ public class Employee {
         list.forEach(s->{
             System.out.println(s.empId+" "+ s.salary);
         });
+
+
     }
 }

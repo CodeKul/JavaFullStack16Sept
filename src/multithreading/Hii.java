@@ -15,7 +15,7 @@ public class Hii extends Thread {
     }
 }
 
-class Hello implements Runnable {
+class Hello  implements Runnable {
     @Override
     public void run() {
         for (int i = 1; i <= 5; i++) {
