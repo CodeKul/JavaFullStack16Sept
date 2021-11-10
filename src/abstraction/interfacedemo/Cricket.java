@@ -9,7 +9,7 @@ public class Cricket implements SportInterface{
 
     public static void main(String[] args) {
 
-        Cricket obj = new Cricket();
+        SportInterface obj = new Cricket();
         obj.play();
     }
 

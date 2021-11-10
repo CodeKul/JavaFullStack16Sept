@@ -1,0 +1,9 @@
+                                     iterable(I)
+
+                                     collection(I)
+
+    List(I)                           Queue(I)                              set(I)
+      - ArrayList(C)                    -PriorityQueue(C)                    -HashSet(C)
+      - LinkedList(C)                                                        -LinkedHashSet(C)
+      - Vector(C)
+          -Stack(C)
