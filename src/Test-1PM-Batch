@@ -14,5 +14,7 @@
      StudentDemo.java.
     
     (Optional) 
- 5) create a Employee class(empId,empName,empAdd,salary) & one Arraylist and store the Employee's in that arraylist also print this  
-     
+ 5) create a Employee class(empId,empName,empAdd,salary) &
+  one Arraylist and store the Employee's in that arraylist also print this
+
+
