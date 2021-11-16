@@ -1,1 +1,4 @@
 Welcome
+
+kubeadm join 192.168.0.136:6443 --token 5rt8nz.7ewd66c6cv9ppvl7 \
+	--discovery-token-ca-cert-hash sha256:2e02f2493ae35a527ee0efefc760590c629821393d025d63caeb82acfc8c39a6
