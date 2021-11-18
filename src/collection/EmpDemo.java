@@ -30,14 +30,19 @@ public class EmpDemo implements Comparable<EmpDemo> {
         });
     }
 
+//    @Override
+//    public int compareTo(EmpDemo empDemo) {
+//        if (this.id == empDemo.id) {
+//            return 0;
+//        } else if (this.id > empDemo.id) {
+//            return 67571;
+//        } else {
+//            return -154455;
+//        }
+//    }
+
     @Override
     public int compareTo(EmpDemo empDemo) {
-        if (this.id == empDemo.id) {
-            return 0;
-        } else if (this.id > empDemo.id) {
-            return 67571;
-        } else {
-            return -154455;
-        }
+        return this.name.compareTo(empDemo.name);
     }
 }
