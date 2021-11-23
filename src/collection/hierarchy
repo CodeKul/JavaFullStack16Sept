@@ -5,5 +5,5 @@
     List(I)                           Queue(I)                              set(I)
       - ArrayList(C)                    -PriorityQueue(C)                    -HashSet(C)
       - LinkedList(C)                                                        -LinkedHashSet(C)
-      - Vector(C)
-          -Stack(C)
+      - Vector(C)                                                            -AbstractSet
+          -Stack(C)                                                                  - Treeset
