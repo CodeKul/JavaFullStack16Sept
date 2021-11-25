@@ -16,10 +16,12 @@ public class JdbcDemo {
 
             Statement statement = connection.createStatement();
 
-            String insert = "insert into employee(id,name,address) values(1,'Suhas','pune')";
+//            String insert = "insert into employee(id,name,address) values(1,'Suhas','pune')";
+//            String update = "update employee set address='Mumbai' where id = 1";
+            String delete = "delete from employee where  id = 1";
 
-            int i = statement.executeUpdate(insert);
-            System.out.println("Record inserted=> " + i);
+            int i = statement.executeUpdate(delete);
+            System.out.println("Record updated=> " + i);
 
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
