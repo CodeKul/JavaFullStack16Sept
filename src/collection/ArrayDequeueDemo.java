@@ -13,17 +13,17 @@ public class ArrayDequeueDemo {
         deque.add(20);
         deque.addFirst(5);
         deque.addLast(25);
-
-        System.out.println(deque.element());
+//
+//        System.out.println(deque.element());
         System.out.println(deque.offer(30));
-        System.out.println(deque.peek());
-        System.out.println(deque.getFirst());
-        System.out.println(deque.getLast());
-        System.out.println(deque.poll());
-        System.out.println(deque.remove());
-        System.out.println(deque.remove());
-        System.out.println(deque.removeFirst());
-        System.out.println(deque.removeFirstOccurrence(30));
+//        System.out.println(deque.peek());
+//        System.out.println(deque.getFirst());
+//        System.out.println(deque.getLast());
+//        System.out.println(deque.poll());
+//        System.out.println(deque.remove());
+//        System.out.println(deque.remove());
+//        System.out.println(deque.removeFirst());
+//        System.out.println(deque.removeFirstOccurrence(30));
         System.out.println(deque);
     }
 }
