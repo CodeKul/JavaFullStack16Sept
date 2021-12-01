@@ -1,0 +1,8 @@
+java 8
+
+- Lambada expression
+- Method references
+- default and static keyword in interface
+- stream api
+- optional keyword
+- LocalDate and Local Time
