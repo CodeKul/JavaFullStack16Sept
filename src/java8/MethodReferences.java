@@ -27,4 +27,6 @@ public class MethodReferences {
 @FunctionalInterface
 interface MyInterface3{
     String msg();
+
 }
+
