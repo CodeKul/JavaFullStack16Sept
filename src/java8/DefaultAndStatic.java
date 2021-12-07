@@ -1,6 +1,6 @@
 package java8;
 
-public class DefaultAndStatic implements MyInterface6{
+public class DefaultAndStatic implements MyInterface6,MyInterface7{
     public static void main(String[] args) {
 
         DefaultAndStatic obj   = new DefaultAndStatic();
@@ -12,6 +12,11 @@ public class DefaultAndStatic implements MyInterface6{
     @Override
     public String str() {
         return "Hii";
+    }
+
+    @Override
+    public int add(int a, int b) {
+        return MyInterface6.super.add(a,b);
     }
 }
 
@@ -26,5 +31,12 @@ interface MyInterface6{
     static int sub(int a,int b){
         return a-b;
     }
+
+}
+
+interface MyInterface7{
+    default int add(int a,int b){
+        return a+b;
+    };
 
 }
